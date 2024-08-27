@@ -1,10 +1,10 @@
-# How to install everything you need for CS3432 when you have an Apple M1
+# How to install everything you need for CS3432 when you have an Apple M1, M2, and M3
 
 Follow ALL steps, in order.
 
 ## 0. Prerequisites
 
-These instructions are specific to Apple M1. To check if you have an Apple M1, click the Apple menu on the top-left corner of your screen, then select "About This Mac". In the window that appears, under the "Overview" tab, the "Chip" section should read "Apple M1".
+These instructions are for Apple M1, M2, and M3. To check your chip, click the Apple menu on the top-left corner of your screen, then select "About This Mac"; and look at the chip section for 'Apple M1', 'Apple M2' or 'Apple M3'. 
 
 ## 1. Install Homebrew
 
@@ -24,9 +24,9 @@ From Terminal, install Git using brew: `$ brew install git`
 ## 4. Install tools for MSP430
 
 The following instructions assume default download and install locations. Paths may change with future updates.
-1. Download [UniFlash installer for macOS](https://www.ti.com/tool/UNIFLASH#downloads). Double-click the disk image to mount it. Run the installer: `$ /Volumes/UniFlash/uniflash_sl.7.0.0.3615.app/Contents/MacOS/osx-x86_64`
-1. Download [MSP430 GCC all-in-one installer for macOS](https://www.ti.com/tool/MSP430-GCC-OPENSOURCE#downloads). Run the installer: `$ sudo ~/Downloads/msp430-gcc-full-osx-installer-9.3.1.2.app/Contents/MacOS/osx-x86_64`
-1. Clone this repository using git: `$ git clone https://github.com/joneavila/msp430-m1`
+1. Download [UniFlash installer for macOS](https://www.ti.com/tool/UNIFLASH#downloads). Double-click the disk image to mount it. Run the installer: `$ /Volumes/UniFlash/uniflash_sl.8.7.0.4818.app/Contents/MacOS/osx-arm64`
+1. Download [MSP430 GCC all-in-one installer for macOS](https://www.ti.com/tool/MSP430-GCC-OPENSOURCE#downloads). Run the installer: `$ sudo ~/Downloads/msp430-gcc-full-osx-installer-9.3.1.2.app/Contents/MacOS/osx-arm64`
+1. Clone this repository using git: `$ git clone https://github.com/robustUTEP/msp430-m1`
 1. Change the current working directory to the directory the repository was cloned into: `$ cd msp430-m1`
 1. Run the install script: `$ bash install.sh`
 
