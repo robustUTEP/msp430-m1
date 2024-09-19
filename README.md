@@ -5,7 +5,7 @@ Please follow each step to ensure success.
 ## 0. Prerequisites
  
 - Confirm your device is of M series:  
-  **System settingss -> General -> About -> Chip** (If it mentions "M," proceed as directed. If it mentions "Intel," follow the x64 Intel guide.)
+  **System Settings -> General -> About -> Chip** (If it mentions "M," proceed as directed. If it mentions "Intel," follow the x64 Intel guide.)
  
 - **IMPORTANT**: Before proceeding, ensure your device is completely up to date:  
   **System Settings -> General -> Software Update**
