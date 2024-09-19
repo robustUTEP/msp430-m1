@@ -27,7 +27,7 @@ Since macOS is Unix-based, you can use the terminal on your device directly with
  
 ## 3. Install Homebrew
  
-Homebrew is a package manager for MacOS that you'll use to install the required tools.
+Homebrew is a package manager for macOS that you'll use to install the required tools.
  
 From within your terminal, execute the following to install [Homebrew](https://brew.sh/):  
 ```bash
@@ -36,7 +36,7 @@ From within your terminal, execute the following to install [Homebrew](https://b
  
 ## 4. Install Bash
  
-Within your terminal, the default MacOS shell is zsh, but it is critical that you use Bash throughout this course. Each time you open your terminal it will most likely be in zsh by default. To switch to Bash, simply type `bash`. To change the default startup to Bash, do the following: **System Settings -> Users & Groups -> *Right click on your profile* Advanced Options -> Enter Password -> Login Shell -> Drop Down list, choose /bin/bash**
+Within your terminal, the default macOS shell is zsh, but it is critical that you use Bash throughout this course. Each time you open your terminal it will most likely be in zsh by default. To switch to Bash, simply type `bash`. To change the default startup to Bash, do the following: **System Settings -> Users & Groups -> *Right click on your profile* Advanced Options -> Enter Password -> Login Shell -> Drop Down list, choose /bin/bash**
  
 It is also important that Bash is up to date; to do so, execute the following command in your terminal:
 ```bash
