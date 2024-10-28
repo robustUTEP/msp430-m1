@@ -59,12 +59,12 @@ brew install git
 **The following instructions assume default download and install locations. Paths may change with future updates.**  
 Please follow the steps in orderly fashion:
 1. Download [UniFlash installer for macOS](https://www.ti.com/tool/UNIFLASH#downloads). Double-click the disk image to mount it.  
-   - Run the installer:
+   Run the installer:
      ```bash
      /Volumes/UniFlash/uniflash_sl.8.8.1.4983.app/Contents/MacOS/osx-arm64
      ```
 2. Download [MSP430 GCC all-in-one installer for macOS](https://www.ti.com/tool/MSP430-GCC-OPENSOURCE#downloads).  
-   - Run the installer:
+   Run the installer:
      ```bash
      sudo ~/Downloads/msp430-gcc-full-osx-installer-9.3.1.2.app/Contents/MacOS/osx-x86_64
      ```
