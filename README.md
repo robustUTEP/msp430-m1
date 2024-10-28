@@ -61,7 +61,7 @@ Please follow the steps in orderly fashion:
 1. Download [UniFlash installer for macOS](https://www.ti.com/tool/UNIFLASH#downloads). Double-click the disk image to mount it.  
    - Run the installer:
      ```bash
-     /Volumes/UniFlash/uniflash_sl.7.0.0.3615.app/Contents/MacOS/osx-x86_64
+     /Volumes/UniFlash/uniflash_sl.8.8.1.4983.app/Contents/MacOS/osx-arm64
      ```
 2. Download [MSP430 GCC all-in-one installer for macOS](https://www.ti.com/tool/MSP430-GCC-OPENSOURCE#downloads).  
    - Run the installer:
